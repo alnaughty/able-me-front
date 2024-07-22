@@ -1,17 +1,17 @@
 <template>
-  <div class="bg-purple h-[321px] pt-10 !z-10">
-    <img class="pl-10" src="/f_logo.png"/>
-    <div class="grid grid-cols-3 place-items-center gap-80">
+  <div class="bg-purple md:h-[230px] lg:h-[321px] md:pt-5 lg:pt-10">
+    <img class="md:pl-5 lg:pl-10 md:w-[250px]" src="/f_logo.png"/>
+    <div class="grid grid-cols-3 place-items-center md:gap-50 lg:gap-80">
       
-      <div class="flex gap-2">
-        <img src="/facebook.png"/>
-        <img src="/intagram.png"/>
-        <img src="/twitter.png"/>
+      <div class="flex gap-2 cursor-pointer">
+        <img class="w-[30px] h-[30px]" src="/facebook.png"/>
+        <img class="w-[30px] h-[30px]" src="/intagram.png"/>
+        <img class="w-[30px] h-[30px]" src="/twitter.png"/>
       </div>
 
-      <p class="text-white cursor-pointer">Able Me 2024, All Rights Reserved</p>
+      <p class="text-white cursor-pointer md:text-[14px] w-[250px]">Able Me 2024, All Rights Reserved</p>
 
-      <div class="flex gap-4 text-white cursor-pointer">
+      <div class="flex gap-2 text-white cursor-pointer md:text-[14px] w-[250px]">
         <p>Privacy Policy</p>
         <p>Terms and Condtions</p>
       </div>
