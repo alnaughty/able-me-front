@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-[url('/sline.png')]" >
+  <div>
+    <img class="absolute top-40 right-0 !z-0" src="/sline.png" width="74%"/>
     <ClientOnly>
       <b-header/>
       <section-1/>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-[url('/map.png')] bg-cover py-20">
+  <div class="w-full bg-[url('/map.png')] bg-cover py-20 bg-opacity-0">
     <div class="h-full grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-items-center">
       <div class="w-[616px]">
         <h1 class="text-6xl font-bold">TRY OUR <span class="text-purple"> INCLUSIVE </span> TRANSPORTATION APP</h1>
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="w-full h-full grid place-items-center">
-        <img src="/phone.png" width="600px"/>
+        <img class="!z-10" src="/phone.png" width="600px"/>
       </div>
     </div>
 

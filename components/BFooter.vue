@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-purple h-[321px] pt-10">
+  <div class="bg-purple h-[321px] pt-10 !z-10">
     <img class="pl-10" src="/f_logo.png"/>
     <div class="grid grid-cols-3 place-items-center gap-80">
       

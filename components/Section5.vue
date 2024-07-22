@@ -15,7 +15,7 @@
         transportation services. It's a lifeline, a community, and a <br>
         promise of independence.</p>
     </div>
-    <img src="/image3.png"/>
+    <img class="z-10" src="/image3.png"/>
   </div>
 </template>
 <script setup>
