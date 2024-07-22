@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-2 place-items-center gap-2 py-6">
-    <img class="md:w-[370px] lg:w-[600px]" src="/image1.png"/>
+    <img class="md:w-[370px] lg:w-[600px] !z-10" src="/image1.png"/>
     <div class="pr-20">
       <p class="font-medium text-purple md:mb-0 lg:mb-3 tracking-wider">ABOUT US</p>
       <p class="md:text-xl lg:text-4xl font-extrabold leading-10 md:mb-1 lg:mb-4 tracking-wide">Revolutionizing PWD <br> Transportation Accessibility</p>

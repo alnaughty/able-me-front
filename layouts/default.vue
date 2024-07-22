@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="absolute top-40 right-0 !z-0" src="/sline.png" width="74%"/>
+    <img class="absolute top-40 right-0 !z-0 md:w-[85%] lg:w-[70%]" src="/sline.png" />
     <ClientOnly>
       <b-header/>
       <section-1/>
