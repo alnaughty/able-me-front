@@ -3,7 +3,7 @@
     <b-header class="hidden md:flex"/>
     <s-header class="sm:block md:hidden"/>
     <NuxtPage @click.capture="drawer.close"/>
-    <b-footer/>
+    <b-footer class="hidden md:flex"/>
   </div>
 
 </template>
