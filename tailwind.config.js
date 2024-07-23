@@ -10,10 +10,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif']
+      }
     },
     colors: {
       'purple': '#8C288C',
-      'white': '#fff',
+      'purple-10': '#FA87FA',
+      'white': '#FFFFFF',
     }
   },
   plugins: [],
