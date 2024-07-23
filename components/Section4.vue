@@ -7,7 +7,7 @@
       <p class="text-[14px] md:text-center text-white">Able Me provides a comprehensive range of services tailored to meet the <br> diverse needs of our users</p>
     </div>
     
-    <div class="absolute flex md:justify-center -bottom-20 gap-4 md:left-0 lg:gap-12 w-screen md:w-[100%] overflow-x-auto md:overflow-hidden z-30">
+    <div class="absolute flex md:justify-center -bottom-20 gap-4 md:left-0 lg:gap-12 w-screen md:w-[100%] overflow-x-auto md:overflow-hidden md:px-12">
       <div class="bg-white rounded-lg p-5 lg:p-10 shadow-2xl min-w-[250px]">
         <img class="mb-2 w-[90px] lg:w-[150px]" src="/meter.png"/>
         <p class="font-bold uppercase mb-2">Accessible <br> Transportation</p>
