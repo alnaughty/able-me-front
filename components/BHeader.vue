@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-between px-4">
     <img src="/h_logo.png"/>
-    <div class="grid grid-cols-4 md:gap-6 lg:gap-12 place-items-center cursor-pointer">
+    <div class="grid grid-cols-4 md:gap-4 lg:gap-12 place-items-center cursor-pointer">
       <p>Home</p>
       <a href="#about-us">About Us</a>
       <a href="#offers">Our Offers</a>

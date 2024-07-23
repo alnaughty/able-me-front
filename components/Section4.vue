@@ -7,26 +7,26 @@
       <p class="text-[14px] md:text-center text-white">Able Me provides a comprehensive range of services tailored to meet the <br> diverse needs of our users</p>
     </div>
     
-    <div class="absolute flex md:justify-center -bottom-20 gap-4 md:left-0 lg:gap-12 w-screen md:w-[100%] overflow-x-auto md:overflow-hidden md:px-12">
-      <div class="bg-white rounded-lg p-5 lg:p-10 shadow-2xl min-w-[250px]">
-        <img class="mb-2 w-[90px] lg:w-[150px]" src="/meter.png"/>
+    <div class="absolute flex lg:justify-center -bottom-20 gap-4 md:left-0 lg:gap-12 w-screen md:w-[100%] overflow-x-auto lg:overflow-hidden md:px-4 lg:px-12">
+      <div class="bg-white rounded-lg p-5 lg:p-10 shadow-2xl min-w-[250px] md:min-w-[100px] md:max-w-[195px] lg:max-w-[350px]">
+        <img class="mb-2 w-[90px] md:w-[50px] lg:w-[150px]" src="/meter.png"/>
         <p class="font-bold uppercase mb-2">Accessible <br> Transportation</p>
         <p class="md:text-[14px] lg:text-[16px]">Vehicles equipped with ramps and lifts for wheelchair accessibility.</p>
       </div>
-      <div class="bg-white rounded-lg p-5 lg:p-10 shadow-2xl min-w-[250px]">
-        <img class="mb-2 w-[90px] lg:w-[150px]" src="/food.png"/>
+      <div class="bg-white rounded-lg p-5 lg:p-10 shadow-2xl min-w-[250px] md:min-w-[100px] md:max-w-[195px] lg:max-w-[350px]">
+        <img class="mb-2 w-[90px] md:w-[50px] lg:w-[150px]" src="/food.png"/>
         <p class="font-bold uppercase mb-2">Food Delivery</p>
-        <p class="md:text-[14px] lg:text-[16px]">Vehicles equipped with ramps and lifts for wheelchair accessibility.</p>
+        <p class="md:text-[14px] lg:text-[16px]">Convenient delivery of groceries and meals, accommodating various dietary requirements.</p>
       </div>
-      <div class="bg-white rounded-lg p-5 lg:p-10 shadow-2xl min-w-[250px]">
-        <img class="mb-2 w-[90px] lg:w-[150px]" src="/medicine.png"/>
+      <div class="bg-white rounded-lg p-5 lg:p-10 shadow-2xl min-w-[250px] md:min-w-[100px] md:max-w-[195px] lg:max-w-[350px]">
+        <img class="mb-2 w-[90px] md:w-[50px] lg:w-[150px]" src="/medicine.png"/>
         <p class="font-bold uppercase mb-2">Medicine Pickup and Drop</p>
-        <p class="md:text-[14px] lg:text-[16px]">Vehicles equipped with ramps and lifts for wheelchair accessibility.</p>
+        <p class="md:text-[14px] lg:text-[16px]">Secure and timely delivery of prescriptions and medical supplies. </p>
       </div>
-      <div class="bg-white rounded-lg p-5 lg:p-10 shadow-2xl min-w-[250px]">
-        <img class="mb-2 w-[90px] lg:w-[150px]" src="/box.png"/>
+      <div class="bg-white rounded-lg p-5 lg:p-10 shadow-2xl min-w-[250px] md:min-w-[100px] md:max-w-[195px] lg:max-w-[350px]">
+        <img class="mb-2 w-[90px] md:w-[50px] lg:w-[150px]" src="/box.png"/>
         <p class="font-bold uppercase mb-2">Parcel Assistance</p>
-        <p class="md:text-[14px] lg:text-[16px]">Vehicles equipped with ramps and lifts for wheelchair accessibility.</p>
+        <p class="md:text-[14px] lg:text-[16px]">Reliable handling and delivery of parcels and packages.</p>
       </div>
     </div>
   </div>
