@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans">
+  <div class="font-sans !scroll-smooth">
     <b-header class="hidden md:flex"/>
     <s-header class="sm:block md:hidden"/>
     <NuxtPage @click.capture="drawer.close"/>

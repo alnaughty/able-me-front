@@ -2,13 +2,14 @@
   <div class="w-full flex justify-between px-4">
     <img src="/h_logo.png"/>
     <div class="grid grid-cols-4 md:gap-4 lg:gap-12 place-items-center cursor-pointer">
-      <p>Home</p>
+      
+      <a href="/">Home</a>
       <a href="#about-us">About Us</a>
       <a href="#offers">Our Offers</a>
       <a href="#founder">Founders</a>
     </div>
     <div class="grid place-items-center">
-      <button class="text-purple px-4 py-1 rounded border-2">Download</button>
+      <button class="text-purple px-4 py-1 rounded border-2 animate-bounce">Download</button>
     </div>
   </div>
 </template>
