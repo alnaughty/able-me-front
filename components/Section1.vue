@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-[url('/map.png')] bg-cover md:py-5 lg:py-20 bg-opacity-0 px-4 md:px-0">
+  <div class="w-full bg-[url('/map.png')] bg-cover md:py-5 lg:py-20 bg-opacity-0 px-4 md:px-0 md:pl-5">
     <div class="h-full grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-items-center">
       <div class="w-full md:w-[361px] lg:w-[616px]">
         <h1 class="hidden md:block text-2xl md:text-4xl lg:text-6xl font-bold">TRY OUR <span class="text-purple"> INCLUSIVE </span> TRANSPORTATION APP</h1>

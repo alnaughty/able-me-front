@@ -8,7 +8,7 @@
       <a href="#founder">Founders</a>
     </div>
     <div class="grid place-items-center">
-      <button class="bg-purple px-4 py-1 rounded text-white">Download</button>
+      <button class="text-purple px-4 py-1 rounded border-2">Download</button>
     </div>
   </div>
 </template>

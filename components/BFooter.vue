@@ -1,21 +1,37 @@
 <template>
-  <div class="bg-purple md:h-[230px] lg:h-[200px] md:pt-5 lg:pt-10 mt-7">
-    <img class="md:pl-5 lg:pl-10 md:w-[250px]" src="/f_logo.png"/>
-    <div class="grid grid-cols-3 place-items-center md:gap-50 lg:gap-80">
-      
-      <div class="flex gap-2 cursor-pointer">
-        <img class="w-[30px] h-[30px]" src="/facebook.png"/>
-        <img class="w-[30px] h-[30px]" src="/intagram.png"/>
-        <img class="w-[30px] h-[30px]" src="/twitter.png"/>
-      </div>
-
-      <p class="text-white cursor-pointer md:text-[14px] w-[250px]">Able Me 2024, All Rights Reserved</p>
-
-      <div class="flex gap-2 text-white cursor-pointer md:text-[14px] w-[250px]">
-        <p>Privacy Policy</p>
-        <p>Terms and Condtions</p>
+  <div class="bg-purple-20 grid place-items-center mt-7 w-full text-white font-sans">
+    <div class="text-center w-full pt-10">
+      <p class="text-[28px] font-bold leading-10">EMPOWER AND JOIN <br> OUR CAUSE!</p>
+      <button class="mt-3 bg-purple px-5 py-3 rounded">Contact Us</button>
+    </div>
+    <div class="w-full mt-4 px-5">
+      <div class="w-full md:flex md:justify-between">
+        <div class="min-w-[40%] mb-5 md:mb-0">
+          <img class="w-[150px] mb-5 md:mb-0" src="/f_logo.png"/>
+          <p class="text-xs">6/8 Gregory Terrace, Alice <br> Springs NT 0870, Australia</p>
+          <p class="text-xs">All rights reserved</p>
+        </div>
+        <div class="w-full md:flex md:justify-between text-sm">
+          <div class=" md:px-2 mb-5 md:mb-0">
+            <p>Links</p>
+            <p>Social Media</p>
+            <p>Contact</p>
+          </div>
+          <div class="mb-5 md:mb-0">
+            <p>Company</p>
+            <p>Privacy Policy</p>
+            <p>Terms and Condition</p>
+          </div>
+          <div class="mb-5 md:mb-0">
+            <p>Get in touch</p>
+            <p>6/8 Gregory Terrace, Alice <br> Springs NT 0870, Australia</p>
+            <p class="mb-3 md:mb-0">+1300 097 154</p>
+            <p>contact@theableme.com</p>
+          </div>
+        </div>
       </div>
     </div>
+    <p class="text-[14px] text-center py-2">© Able Me. All Rights Reserved 2024</p>
   </div>
 </template>
 <script setup>

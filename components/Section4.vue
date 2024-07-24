@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-7 md:mt-0 relative grid md:place-items-center bg-[url('/image2.png')] bg-cover h-[500px] h-[600px]">
+  <div class="mt-2 md:mt-0 relative grid md:place-items-center bg-[url('/image2.png')] bg-cover h-[500px] h-[600px]">
     <div class="md:text-center ml-4 mt-20 md:-mt-80 lg:-mt-60">
       <p class="text-[18px] md:text-[24px] text-purple-10 font-bold">OUR OFFERS</p>
       <p class="hidden md:block text-xl font-bold text-white tracking-wide uppercase md:text-center mb-3">Providing a comprehensive <br> range of services</p>
