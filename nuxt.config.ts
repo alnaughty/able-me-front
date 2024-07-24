@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap' },
-        { rel: 'icon', type: 'image/png', href: '/h_logo.png' }
+        { rel: 'icon', type: 'image/png', href: '/logo.png' }
       ]
     },
   },
