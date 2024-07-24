@@ -9,5 +9,11 @@
   </div>
 </template>
 <script setup>
-
+useSeoMeta({
+  title: 'ABLE ME',
+  ogTitle: 'ABLE ME',
+  description: 'At Able Me, we are dedicated to revolutionizing transportation and accessibility for individuals with disabilities. Our mission is to empower every person to navigate their world with independence and confidence, ensuring they have equal access to essential services and opportunities.',
+  ogDescription: 'At Able Me, we are dedicated to revolutionizing transportation and accessibility for individuals with disabilities. Our mission is to empower every person to navigate their world with independence and confidence, ensuring they have equal access to essential services and opportunities.',
+  ogImage: '/h_logo.png',
+})
 </script>

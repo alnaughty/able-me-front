@@ -13,18 +13,18 @@
         </div>
         <div class="w-full md:flex md:justify-between text-sm">
           <div class=" md:px-2 mb-5 md:mb-0">
-            <p>Links</p>
-            <p>Social Media</p>
+            <p class="font-medium py-1">Links</p>
+            <p class="py-1">Social Media</p>
             <p>Contact</p>
           </div>
-          <div class="mb-5 md:mb-0">
-            <p>Company</p>
-            <p>Privacy Policy</p>
+          <div class="mb-5 md:mb-0 md:text-[13px]">
+            <p class="font-medium py-1">Company</p>
+            <p class="py-1">Privacy Policy</p>
             <p>Terms and Condition</p>
           </div>
-          <div class="mb-5 md:mb-0">
-            <p>Get in touch</p>
-            <p>6/8 Gregory Terrace, Alice <br> Springs NT 0870, Australia</p>
+          <div class="mb-5 md:mb-0 md:text-[13px]">
+            <p class="font-medium py-1">Get in touch</p>
+            <p class="py-1">6/8 Gregory Terrace, Alice <br> Springs NT 0870, Australia</p>
             <p class="mb-3 md:mb-0">+1300 097 154</p>
             <p>contact@theableme.com</p>
           </div>
