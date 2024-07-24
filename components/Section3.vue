@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="grid md:grid-cols-2 grid-cols-1 md:pr-20 pr-4 pl-4 md:pl-0">
-      <div class="lg:-mt-40" ref="animatedSection32" :class="{'animate-fade-in-up': isVisible2}">
+      <div class="lg:-mt-40 z-20" ref="animatedSection32" :class="{'animate-fade-in-up': isVisible2}">
         <img class="hidden md:block" src="/car.png"/>
       </div>
       <div class="mt-4 lg:mt-40" ref="animatedSection32" :class="{'animate-fade-in-right': isVisible2}">

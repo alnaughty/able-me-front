@@ -8,7 +8,7 @@
       <div class="flex justify-between items-center">
         <button @click="tog()" class="text-black text-2xl font-bold">&#9776;</button>
         <img class="w-[180px]" src="/h_logo.png"/>
-        <img src="/download.png" class="w-[20px] h-[20px]"/>
+        <img @click="router.push({path:'/download'})" src="/download.png" class="w-[20px] h-[20px]"/>
       </div>
     </div>
     <nav
@@ -24,19 +24,20 @@
           <a href="/">Home</a>
         </li>
         <li class="my-8">
-          <a href="#about-us">About Us</a>
+          <a href="/#about-us">About Us</a>
         </li>
         <li class="my-8">
-          <a href="#offers">Our Offers</a>
+          <a href="/#offers">Our Offers</a>
         </li>
         <li class="my-8">
-          <a href="#founder">Founders</a>
+          <a href="/#founder">Founders</a>
         </li>
       </ul>
     </nav>
   </div>
 </template>
 <script setup>
+const router = useRouter()
 const drawer = useDrawer()
 const tog = () => {
   drawer.changeOpen()
