@@ -1,10 +1,11 @@
 <template>
-  <div class="bg-purple-20 grid place-items-center mt-7 w-full text-white font-sans">
-    <div class="text-center w-full pt-10">
-      <p class="text-[28px] font-bold leading-10">EMPOWER AND JOIN <br> OUR CAUSE!</p>
-      <button class="mt-3 bg-purple px-5 py-3 rounded">Contact Us</button>
+  <div class="bg-purple-20 grid place-items-center mt-7 w-full text-white font-sans px-[8%] pt-[20%] md:px-[6%] lg:px-[10%] md:pt-[8%] pb-[3%]">
+    <div class="text-center w-full">
+      <p class="hidden md:block text-[28px] font-bold leading-10">EMPOWER AND JOIN <br> OUR CAUSE!</p>
+      <p class="md:hidden text-[25px] font-bold leading-9">EMPOWER AND <br> JOIN OUR CAUSE!</p>
+      <button class="mt-7 bg-purple px-5 py-3 rounded">Contact Us</button>
     </div>
-    <div class="w-full mt-4 px-5">
+    <div class="w-full mt-7">
       <div class="w-full md:flex md:justify-between">
         <div class="min-w-[40%] mb-5 md:mb-0">
           <img class="w-[150px] mb-5 md:mb-0" src="/f_logo.png"/>

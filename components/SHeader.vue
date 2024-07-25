@@ -56,7 +56,7 @@ onUnmounted(() => {
 });
 </script>
 
-<style>
+<style scoped>
 .navbar {
   transition: all 330ms ease-out;
 }

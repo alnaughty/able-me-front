@@ -4,6 +4,7 @@ export const useDrawer = defineStore('drawer', {
   state: () => {
     return {
       open: false,
+      modal_open: false
     }
   },
   actions: {
