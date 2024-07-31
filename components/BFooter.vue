@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-purple-20 grid place-items-center mt-7 w-full text-white font-sans px-[8%] pt-[20%] md:px-[6%] lg:px-[10%] md:pt-[8%] pb-[3%]">
+  <div class="relative bg-purple-20 grid place-items-center mt-7 w-full text-white font-sans px-[8%] pt-[20%] md:px-[6%] lg:px-[10%] md:pt-[8%] pb-[3%]">
+    <img class="absolute left-0 top-0 w-[20%]" src="/footer_vector.png"/>
     <div class="text-center w-full">
       <p class="hidden md:block text-[28px] font-bold leading-10">EMPOWER AND JOIN <br> OUR CAUSE!</p>
       <p class="md:hidden text-[25px] font-bold leading-9">EMPOWER AND <br> JOIN OUR CAUSE!</p>
