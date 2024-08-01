@@ -5,9 +5,9 @@
       class=" top-0 left-0 w-full px-4"
       @click.stop=""
     >
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center py-5">
         <button @click="tog()" class="text-black text-2xl font-bold">&#9776;</button>
-        <img class="w-[180px]" src="/h_logo.png"/>
+        <img class="w-[150px]" src="/h_logo.png"/>
         <img @click="drawer.modalOpen" src="/download.png" class="w-[20px] h-[20px]"/>
       </div>
     </div>

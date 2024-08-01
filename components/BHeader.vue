@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-full flex justify-between md:px-[2%] lg:px-16">
+    <div class="w-full flex justify-between md:px-[2%] lg:px-16 py-5">
       <img src="/h_logo.png"/>
       <div class="grid grid-cols-4 md:gap-4 lg:gap-12 place-items-center cursor-pointer">
         
