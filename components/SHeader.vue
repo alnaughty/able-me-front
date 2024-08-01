@@ -8,12 +8,12 @@
       <div class="flex justify-between items-center">
         <button @click="tog()" class="text-black text-2xl font-bold">&#9776;</button>
         <img class="w-[180px]" src="/h_logo.png"/>
-        <img @click="router.push({path:'/download'})" src="/download.png" class="w-[20px] h-[20px]"/>
+        <img @click="drawer.modalOpen" src="/download.png" class="w-[20px] h-[20px]"/>
       </div>
     </div>
     <nav
       :class="drawer.open ? 'navbar-open' : 'navbar-close'"
-      class="navbar w-[80%] absolute text-white bg-purple top-0 h-screen z-20"
+      class="navbar w-[80%] absolute text-white bg-purple-30 top-0 h-screen z-20"
     >
       <div class="flex pr-2 justify-end">
         <button @click="drawer.close" class="p-2 text-xl font-bold">&#9747;</button>
@@ -45,6 +45,7 @@ const tog = () => {
 
 const handleScroll = () => {
   drawer.close()
+  drawer.modalClose()
 };
 
 onMounted(() => {

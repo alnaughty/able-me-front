@@ -16,4 +16,6 @@ useSeoMeta({
   ogDescription: 'At Able Me, we are dedicated to revolutionizing transportation and accessibility for individuals with disabilities. Our mission is to empower every person to navigate their world with independence and confidence, ensuring they have equal access to essential services and opportunities.',
   ogImage: '/h_logo.png',
 })
+
+const drawer = useDrawer()
 </script>

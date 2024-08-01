@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-2 place-items-center w-full h-[900px] md:px-[10%]">
     <div class="lg:pl-[10%]" ref="animatedDownload" :class="{'animate-fade-in-left': isVisible}">
-      <p class="text-4xl uppercase text-purple font-bold">Download</p>
+      <p class="text-4xl uppercase text-purple-30 font-bold">Download</p>
       <p class="text-4xl uppercase">our app</p>
       <p class="text-[16px]">Welcome to our all-inclusive transportation app, where convenience meets versatility! Whether you're ordering food, 
         purchasing medicine, booking a ride, or catching up on the latest blogs and news, everything is just a tap away.</p>

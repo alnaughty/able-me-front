@@ -7,6 +7,7 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
+    "./node_modules/flowbite/**/*.{js,ts}"
   ],
   theme: {
     extend: {
@@ -54,6 +55,16 @@ module.exports = {
             transform: 'translateY(0)',
           },
         },
+        'fade-out-down': {
+          '0%': {
+            opacity: '1',
+            transform: 'translateY(0%)',
+          },
+          '100%': {
+            opacity: '0',
+            transform: 'translateY(100%)',
+          },
+        },
         'fade-in': {
           '0%': {
             opacity: '0',
@@ -68,15 +79,20 @@ module.exports = {
         'fade-in-right': 'fade-in-right 1s ease-out',
         'fade-in-up': 'fade-in-up 1s ease-out',
         'fade-in-down': 'fade-in-down 1s ease-out',
+        'fade-out-down': 'fade-out-down 1s ease-out',
         'fade-in': 'fade-in 3s ease-out',
       },
     },
     colors: {
       'purple': '#8C288C',
+      'purple-30': '#8C288C',
       'purple-10': '#FA87FA',
       'purple-20': '#BD2DBD',
+      'purple-40': '#8D298D',
       'white': '#FFFFFF',
     }
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }

@@ -10,25 +10,13 @@
         <a href="/#founder">Founders</a>
       </div>
       <div class="grid place-items-center">
-        <button @click="open=!open" class="text-purple px-4 py-1 rounded border-2 animate-bounce">Download</button>
+        <button @click="setting.modalOpen" class="text-purple-30 px-4 py-1 rounded border-2 border-purple-30 animate-bounce">Download</button>
       </div>
     </div>
-    <download :class="open ? 'modal-open' : 'modal-close'" class="modal w-screen h-screen" @close="open=false"/>
+    
   </div>
 </template>
 <script setup>
 const router = useRouter()
-const open = ref(false)
+const setting = useDrawer()
 </script>
-<style scoped>
-.modal {
-  transition: all 330ms ease-out;
-}
-
-.modal-open {
-  transform: translateY(0%);
-}
-.modal-close {
-  transform: translateY(-100%);
-}
-</style>
